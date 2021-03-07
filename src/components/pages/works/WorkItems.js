@@ -1,13 +1,19 @@
 import React from 'react'
 
-function WorkItems() {
+function WorkItems({image,title,url}) {
+function gotoUrl() {
+    var a= document.createElement('a');
+    a.href=url;
+    a.click();
+}
+
     return (
-        <div className='col-sm-3 workItem'>
+        <div className='col-sm-3 workItem' onClick={gotoUrl}>
             <img 
-             src='https://avatars.githubusercontent.com/u/37290709?s=460&u=fe1dad5ae780bc4c93048afdbdc2353644d8b623&v=4'
+             src={image}
             alt="Avatar" style={{width:'100%',height:'80%',paddingTop:'1rem'}}></img>
-            <div className='workheading'>
-            card component
+            <div className='workheading mt-2'>
+            {title}
             </div>
         </div>
     )

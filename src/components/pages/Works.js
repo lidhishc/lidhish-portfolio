@@ -1,5 +1,6 @@
 import React from "react";
 import Item from "./works/WorkItems";
+import NetfilxPNG from './works/netflix.png'
 function Works() {
   return (
     <div className="works" id='works'>
@@ -7,8 +8,8 @@ function Works() {
             Works
         </div>
       <div className="worksItems row noGutter">
-        <Item  />
-        <Item  />
+        <Item  image={NetfilxPNG} title='Netflix Clone' url={'https://netflix-clone-lidhish.web.app/'}/>
+      {/* <Item  /> */}
      
       </div>
     </div>
