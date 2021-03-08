@@ -296,3 +296,9 @@ font-weight: bolder;
     margin-top: '.7rem';
     color: white;
 }
+
+
+@font-face {
+    font-family: head;
+    src: url('../../fonst/fonts/RaviPrakash-Regular.ttf');
+  }

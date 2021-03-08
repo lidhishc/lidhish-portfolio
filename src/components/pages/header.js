@@ -17,7 +17,7 @@ function header() {
         <div className='header'>
             <div style={{fontWeight:'bolder',
         marginLeft:'1rem',
-        color:'blue',
+        color:'white',
         fontFamily:'-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif',
         letterSpacing:'3px'
         }}>
