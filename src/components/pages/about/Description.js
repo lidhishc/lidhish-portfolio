@@ -19,18 +19,18 @@ function Description() {
           </div>
           <div className="description_items">
             <div className="row noGutter">
-              <Item className="col-sm-3" title="React.js" count={4} />
-              <Item className="col-sm-3" title="Angular 2+" count={3} />
-              <Item className="col-sm-3" title="Node.js" count={4} />
-              <Item className="col-sm-3" title="Express.js" count={3} />
-              <Item className="col-sm-3" title="HTML" count={4} />
-              <Item className="col-sm-3" title="CSS" count={4} />
-              <Item className="col-sm-3" title="JavaScipt" count={4} />
-              <Item className="col-sm-3" title="Python" count={4} />
-              <Item className="col-sm-3" title="Java" count={3} />
-              <Item className="col-sm-3" title="C" count={3} />
-              <Item className="col-sm-3" title="PosgreSQL" count={3} />
-              <Item className="col-sm-3" title="MySQL" count={3} />
+              <Item className="col-sm-3 col-sm-6" title="React.js" count={4} />
+              <Item className="col-sm-3 col-sm-6" title="Angular 2+" count={3} />
+              <Item className="col-sm-3 col-sm-6" title="Node.js" count={4} />
+              <Item className="col-sm-3 col-sm-6" title="Express.js" count={3} />
+              <Item className="col-sm-3 col-sm-6" title="HTML" count={4} />
+              <Item className="col-sm-3 col-sm-6" title="CSS" count={4} />
+              <Item className="col-sm-3 col-sm-6" title="JavaScipt" count={4} />
+              <Item className="col-sm-3 col-sm-6" title="Python" count={4} />
+              <Item className="col-sm-3 col-sm-6" title="Java" count={3} />
+              <Item className="col-sm-3 col-sm-6" title="C" count={3} />
+              <Item className="col-sm-3 col-sm-6" title="PosgreSQL" count={3} />
+              <Item className="col-sm-3 col-sm-6" title="MySQL" count={3} />
             </div>
           </div>
         </div>
